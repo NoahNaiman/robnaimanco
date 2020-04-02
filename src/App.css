@@ -8,7 +8,8 @@
     font-size: calc(8px + 1vmin);
     background-color: black;
     height: 100px;
-    position: sticky;
+    position: -webkit-sticky !important;
+    position: sticky !important;
     top: 0;
 }
 
@@ -34,6 +35,8 @@
 }
 
 .About-Card {
+    width: 90%;
+    margin-left: 5% !important;
     text-align: center; 
     font-size: calc(10px + 1vmin);
     z-index: -1 !important;
@@ -46,6 +49,41 @@
     height: 10%;
 }
 
-.Tenant-Numbers{
-    margin-top: -400px;
+.Parkburger-Jumbo {
+    position: absolute;
+    margin-top: -20% !important;
+    border-top: 1px solid grey !important;
+    z-index: 1 !important;
+}
+
+.Tenant-Icon {
+    position: relative;
+    margin-top: -10%;
+    margin-left: 26%;
+    z-index: 2 !important;
+    text-align: center;    
+    font-size: calc(10px + 4vmin);
+}
+
+.Awards-Icon {
+    position: relative;
+    margin-top: -10%;
+    margin-left: 28%;
+    z-index: 2 !important;
+    text-align: center;
+    font-size: calc(10px + 4vmin);
+}
+
+.Rob-Image {
+    position: relative;
+    margin-left: 20%;
+    text-align: center;
+    font-size: calc(20px + 2vmin);
+}
+
+.Nikki-Image {
+    position: relative;
+    margin-left: 15%;
+    text-align: center;
+    font-size: calc(20px + 2vmin);
 }

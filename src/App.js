@@ -4,12 +4,17 @@ import barchartIcon from './bar-chart.svg';
 import buildingIcon from './building.svg';
 import handshakeIcon from './handshake.svg';
 import logoWhite from './logo_white.png';
+import nikkiImage from './Nikki-Headshot.jpg';
 import parkburger from './parkburger.jpg';
 import pencil from './pencil_shot.png';
+import personIcon from './user.svg';
+import robImage from './Rob-Headshot.jpg';
+import trophyIcon from './trophy.svg';
 
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Container from 'react-bootstrap/Container';
+import Figure from 'react-bootstrap/Figure';
 import Image from 'react-bootstrap/Image';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Nav from 'react-bootstrap/Nav';
@@ -95,9 +100,65 @@ function App() {
                 </Card.Body>
             </Card>
         </CardDeck>
-        <div className="Tenant-Numbers">
-            <Image src={parkburger} fluid/>
-        </div>
+        <Image src={parkburger} className="Parkburger-Jumbo" fluid/>
+        <Figure className="Tenant-Icon">
+            <Figure.Image
+                width={171}
+                height={180}
+                alt="171x180"
+                src={personIcon}
+            />
+            <Figure.Caption style={{color:'white'}}>
+                <strong>125</strong> <br></br> Tenants
+            </Figure.Caption>
+        </Figure>
+        <Figure className="Awards-Icon">
+            <Figure.Image
+                width={171}
+                height={180}
+                alt="171x180"
+                src={trophyIcon}
+            />
+            <Figure.Caption style={{color:'white'}}>
+                <strong>6</strong> <br></br> Awards
+            </Figure.Caption>
+        </Figure>
+        <br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br>
+        <Figure className="Rob-Image">
+            <Figure.Image
+                width={400}
+                height={437}
+                alt="400x437"
+                src={robImage}
+            />
+            <Figure.Caption style={{color:'#0384fc'}}>
+               Robert L. Naiman
+            </Figure.Caption>
+            <Figure.Caption style={{color:'grey', 'font-size': 'calc(3px + 2vmin)'}}>
+                Founding Principial & Managing Partner
+            </Figure.Caption>
+            <Figure.Caption style={{color:'black', 'font-size': 'calc(3px + 2vmin)'}}>
+                rob@robnaimanco.com
+            </Figure.Caption>
+        </Figure>
+        <Figure className="Nikki-Image">
+            <Figure.Image
+                width={400}
+                height={437}
+                alt="400x437"
+                src={nikkiImage}
+            />
+            <Figure.Caption style={{color:'#0384fc'}}>
+               Nikki A. Naiman
+            </Figure.Caption>
+            <Figure.Caption style={{color:'grey', 'font-size': 'calc(3px + 2vmin)'}}>
+                Partner & Leasing Director
+            </Figure.Caption>
+            <Figure.Caption style={{color:'black', 'font-size': 'calc(3px + 2vmin)'}}>
+                nikki@robnaimanco.com
+            </Figure.Caption>
+        </Figure>
     </div>
   );
 }
