@@ -66,8 +66,8 @@
 }
 
 .Awards-Icon {
-    position: relative;
-    margin-top: -10%;
+    position: absolute;
+    margin-top: -8%;
     margin-left: 28%;
     z-index: 2 !important;
     text-align: center;

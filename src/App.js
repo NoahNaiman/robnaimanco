@@ -112,7 +112,7 @@ function App() {
                 <strong>125</strong> <br></br> Tenants
             </Figure.Caption>
         </Figure>
-        <Figure className="Awards-Icon">
+        <Figure className="Awards-Icon" style={{'margin-top':'-105% !important'}}>
             <Figure.Image
                 width={171}
                 height={180}
