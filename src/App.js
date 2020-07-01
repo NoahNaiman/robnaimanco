@@ -54,7 +54,6 @@ import sixOSixPeoria from './img/606peoria.jpg';
 import qdoba from './img/Qdoba.png';
 import yogurtland from './img/Yogurtland.png';
 
-import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
 import CardDeck from 'react-bootstrap/CardDeck';
