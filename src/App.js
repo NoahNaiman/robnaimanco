@@ -35,7 +35,7 @@ import nineNinetyWest from './img/990west6th.jpg';
 import nineTenSixteen from './img/91016th.jpg';
 import paloma from './img/Paloma.png';
 import parkBurgerLogo from './img/ParkBurger.png';
-import pencil from './img/pencil_shot.png';
+import pencil from './img/pencil.jpg';
 import phoneIcon from './img/phone-solid.svg';
 import robImage from './img/Rob-Headshot.jpg';
 import thirteenOthreeEast from './img/1303east6th.jpg';
@@ -80,9 +80,6 @@ function App() {
                 <Nav.Link eventKey="link-2">Our Properties</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="link-3">Map of Properties</Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
                 <Nav.Link eventKey="link-4">Contact</Nav.Link>
             </Nav.Item>
         </Nav>
@@ -112,7 +109,7 @@ function App() {
         </Jumbotron>
         <CardDeck className="About-Card">
             <Card>
-                <Card.Img variant="top" src={handshakeIcon} style={{'text-align': 'center'}} className="About-Icon"/>
+                <Card.Img variant="top" src={handshakeIcon} className="About-Icon"/>
                 <Card.Body>
                     <Card.Title>Aquisitions</Card.Title>
                     <hr></hr>

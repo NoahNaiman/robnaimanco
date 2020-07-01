@@ -48,6 +48,9 @@ App {
     width: 10%;
     height: 10%;
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Parkburger-Jumbo {
