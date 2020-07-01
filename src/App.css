@@ -1,4 +1,4 @@
-.App {
+App {
 }
 
 .Navbar {
@@ -11,6 +11,7 @@
     position: -webkit-sticky !important;
     position: sticky !important;
     top: 0;
+    z-index: 100 !important;
 }
 
 .Navbar-logo {
@@ -39,7 +40,6 @@
     margin-left: 5% !important;
     text-align: center; 
     font-size: calc(10px + 1vmin);
-    z-index: -1 !important;
     position: relative;
 }
 
@@ -86,4 +86,21 @@
     margin-left: 15%;
     text-align: center;
     font-size: calc(20px + 2vmin);
+}
+
+.Image-Overlay {
+    background: black;
+    overflow: hidden;
+}
+
+.Property-Image {
+   object-fit: cover;
+   opacity: 0.5;
+}
+
+.Mayor-Award-Jumbo {
+    margin-top: 2% !important;
+    border-top: 1px solid grey !important;
+    z-index: 1 !important;
+    width: 100%;
 }
