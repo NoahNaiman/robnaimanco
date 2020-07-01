@@ -34,14 +34,17 @@ import nikkiImage from './img/Nikki-Headshot.jpg';
 import nineNinetyWest from './img/990west6th.jpg';
 import nineTenSixteen from './img/91016th.jpg';
 import paloma from './img/Paloma.png';
+import parkburger from './img/parkburger.jpg';
 import parkBurgerLogo from './img/ParkBurger.png';
 import pencil from './img/pencil.jpg';
+import personIcon from './img/user.svg';
 import phoneIcon from './img/phone-solid.svg';
 import robImage from './img/Rob-Headshot.jpg';
 import thirteenOthreeEast from './img/1303east6th.jpg';
 import thirtyEightSheridan from './img/3800sheridan.jpg';
 import thirtyFiveLarimer from './img/3500larimer.jpg';
 import thirtyFourLarimer from './img/3463larimer.jpg';
+import trophyIcon from './img/trophy.svg';
 import twentyFiveSixty from './img/2560shavana.jpg';
 import twentyOneOOne from './img/2101sdowning.jpg';
 import twentyOneSixtyThree from './img/216328boulder.jpg';
@@ -108,6 +111,8 @@ function App() {
                     </p>
             </Container>
         </Jumbotron>
+
+
         <CardDeck className="About-Card">
             <Card>
                 <Card.Img variant="top" src={handshakeIcon} className="About-Icon"/>
@@ -140,7 +145,34 @@ function App() {
                 </Card.Body>
             </Card>
         </CardDeck>
-        <br></br><br></br><br></br>
+
+<Image src={parkburger} className="Parkburger-Jumbo" fluid/>		
+         <Figure className="Tenant-Icon">		
+             <Figure.Image		
+                 width={171}		
+                 height={180}		
+                 alt="171x180"		
+                 src={personIcon}		
+             />		
+             <Figure.Caption style={{color:'white'}}>		
+                 <strong>125</strong> <br></br> Tenants		
+             </Figure.Caption>		
+         </Figure>		
+         <Figure className="Awards-Icon" style={{'margin-top':'-105% !important'}}>		
+             <Figure.Image		
+                 width={171}		
+                 height={180}		
+                 alt="171x180"		
+                 src={trophyIcon}		
+             />		
+             <Figure.Caption style={{color:'white'}}>		
+                 <strong>6</strong> <br></br> Awards		
+             </Figure.Caption>		
+         </Figure>
+
+    	<br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br>
+
         <Figure className="Rob-Image">
             <Figure.Image
                 width={400}
