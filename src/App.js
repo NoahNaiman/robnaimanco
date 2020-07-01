@@ -112,7 +112,7 @@ function App() {
         </Jumbotron>
         <CardDeck className="About-Card">
             <Card>
-                <Card.Img variant="top" src={handshakeIcon} className="About-Icon"/>
+                <Card.Img variant="top" src={handshakeIcon} style={{'text-align': 'center'}} className="About-Icon"/>
                 <Card.Body>
                     <Card.Title>Aquisitions</Card.Title>
                     <hr></hr>
