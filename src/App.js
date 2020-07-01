@@ -51,6 +51,7 @@ import sixOSixPeoria from './img/606peoria.jpg';
 import qdoba from './img/Qdoba.png';
 import yogurtland from './img/Yogurtland.png';
 
+import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
 import CardDeck from 'react-bootstrap/CardDeck';
@@ -180,17 +181,29 @@ function App() {
         <h1 style={{'textAlign':'center'}}>Our Properties</h1>
         <br></br><br></br>
         <CardColumns>
-            <Card>
-                <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={cedarAndHolly} alt="211 S Holly St. Denver, CO." />
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
-                    <Card.Title>211 S Holly St. Denver, CO.</Card.Title>
-                    <Card.Text>
+
+            <Accordion defaultActiveKey="1">
+                <Card>
+                    <div className="Image-Overlay">
+                    <Card.Img className="Property-Image" src={cedarAndHolly} alt="211 S Holly St. Denver, CO." />
+                    <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                        <Card.Title>211 S Holly St. Denver, CO.</Card.Title>
+                        <Card.Text>
 Former gas station site redeveloped in 2013 and now home to Park Burger, Novo Coffee, and the original High Point Creamery.
-                    </Card.Text>
-                </Card.ImgOverlay>
-                </div>
-            </Card>
+                        </Card.Text>
+                    </Card.ImgOverlay>
+                    </div>
+                    <Accordion.Toggle as={Card.ImgOverlay} eventKey="0"></Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0">
+                        <Card.Body> Hello! </Card.Body>
+                    </Accordion.Collapse>
+                </Card>
+            </Accordion>
+
+
+
+
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={sixthAndGrant} alt="300 E 6th Ave. Denver, CO." />
