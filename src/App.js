@@ -148,7 +148,7 @@ function App() {
 
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
-<Image src={parkburger} className="Parkburger-Jumbo" fluid/>		
+		<Image src={parkburger} className="Parkburger-Jumbo" fluid/>		
          <Figure className="Tenant-Icon">		
              <Figure.Image		
                  width={171}		
