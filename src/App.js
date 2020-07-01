@@ -146,7 +146,7 @@ function App() {
             </Card>
         </CardDeck>
 
-        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
 		<Image src={parkburger} className="Parkburger-Jumbo" fluid/>		
          <Figure className="Tenant-Icon">		
@@ -216,7 +216,6 @@ function App() {
         <br></br><br></br>
         <CardColumns>
 
-            <Accordion defaultActiveKey="1">
                 <Card>
                     <div className="Image-Overlay">
                     <Card.Img className="Property-Image" src={cedarAndHolly} alt="211 S Holly St. Denver, CO." />
@@ -227,12 +226,7 @@ Former gas station site redeveloped in 2013 and now home to Park Burger, Novo Co
                         </Card.Text>
                     </Card.ImgOverlay>
                     </div>
-                    <Accordion.Toggle as={Card.ImgOverlay} eventKey="0"></Accordion.Toggle>
-                    <Accordion.Collapse eventKey="0">
-                        <Card.Body> Hello! </Card.Body>
-                    </Accordion.Collapse>
                 </Card>
-            </Accordion>
 
 
 
