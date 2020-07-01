@@ -142,6 +142,7 @@ function App() {
                 </Card.Body>
             </Card>
         </CardDeck>
+        <br></br><br></br><br></br>
         <Figure className="Rob-Image">
             <Figure.Image
                 width={400}
