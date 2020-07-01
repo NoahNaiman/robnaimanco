@@ -147,7 +147,6 @@ function App() {
         </CardDeck>
 
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-        <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 
 <Image src={parkburger} className="Parkburger-Jumbo" fluid/>		
          <Figure className="Tenant-Icon">		
