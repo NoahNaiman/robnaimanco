@@ -12,10 +12,14 @@ import curtisParkDeli from './img/CurtisParkDeli.png';
 import dependableCleaners from './img/DependableCleaners.png';
 import dominos from './img/Dominos.png';
 import eightOneNineteen from './img/801819COBlvd.jpg';
+import eightyThirtyOneEastColfax from './img/8031EastColfax.jpg';
+import elevenSixNinetySevenColfax from './img/11697EastColfax.jpg';
 import envelopeIcon from './img/envelope-icon.svg';
+import fifteenThreeTwentyIliff from './img/15320EastIliff.jpg';
 import fifteenThirtyFive from './img/1535eevans.jpg';
 import fivehundredGrant from './img/500grantstreet.jpg';
 import fiveSixtyEightWash from './img/568nwashington.jpg';
+import fortyEightThirtyNineEColfax from './img/4839EastColfax.jpg';
 import fourThirtyFourTennyson from './img/403440tennyson.jpg';
 import fruition from './img/Fruition.png';
 import handshakeIcon from './img/handshake.svg';
@@ -50,6 +54,8 @@ import twentyOneOOne from './img/2101sdowning.jpg';
 import twentyOneSixtyThree from './img/216328boulder.jpg';
 import twentySevenESixth from './img/2700e6th.jpg';
 import sixthAndGrant from './img/6thandgrant.jpg';
+import sixtyFourNinNineLeets from './img/6499Leetsdale.jpg';
+import sixtyThreeHundredEast from './img/6300East14th.jpg';
 import sixOSixPeoria from './img/606peoria.jpg';
 import qdoba from './img/Qdoba.png';
 import yogurtland from './img/Yogurtland.png';
@@ -454,6 +460,79 @@ Located in Denver's Berkley neighborhood and home to Allegro Coffee and Il Porce
                 </Card.ImgOverlay>
                 </div>
             </Card>
+
+			<Card>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={fortyEightThirtyNineEColfax} alt="4839 East Colfax Ave. Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description">
+                    <Card.Title>4839 East Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Text>
+FILLER TEXT!!!
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+            <Card>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={sixtyThreeHundredEast} alt="6300 East 14th Ave. Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description">
+                    <Card.Title>46300 East 14th Ave. Denver, CO.</Card.Title>
+                    <Card.Text>
+FILLER TEXT!!!
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+            <Card>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={sixtyFourNinNineLeets} alt="6499 Leetsdale Drive. Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description">
+                    <Card.Title>6499 Leetsdale Drive. Denver, CO.</Card.Title>
+                    <Card.Text>
+FILLER TEXT!!!
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+           <Card>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={eightyThirtyOneEastColfax} alt="8031 East Colfax Ave. Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description">
+                    <Card.Title>8031 East Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Text>
+FILLER TEXT!!!
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+            <Card>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={elevenSixNinetySevenColfax} alt="11697 East Colfax Ave. Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description">
+                    <Card.Title>11697 East Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Text>
+FILLER TEXT!!!
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+            <Card>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={fifteenThreeTwentyIliff} alt="15320 E Iliff Ave. Aurora CO."/>
+                <Card.ImgOverlay className="Location-Description">
+                    <Card.Title>15320 E Iliff Ave. Aurora CO.</Card.Title>
+                    <Card.Text>
+FILLER TEXT!!!
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
         </CardColumns>
 
         <Image src={mayorAward} className="Mayor-Award-Jumbo" fluid/>

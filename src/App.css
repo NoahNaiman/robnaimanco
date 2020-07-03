@@ -100,7 +100,7 @@ App {
 .Property-Image {
    object-fit: cover;
    opacity: 1;
-   transition: 0.4s;
+   transition: 0.6s;
    z-index: 3 !important;
    position: relative;
 }
