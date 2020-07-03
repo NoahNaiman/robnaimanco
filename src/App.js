@@ -159,7 +159,7 @@ function App() {
                  <strong>125</strong> <br></br> Tenants		
              </Figure.Caption>		
          </Figure>		
-         <Figure className="Awards-Icon" style={{'margin-top':'-105% !important'}}>		
+         <Figure className="Awards-Icon" style={{'marginTop':'-105% !important'}}>		
              <Figure.Image		
                  width={171}		
                  height={180}		
@@ -217,145 +217,152 @@ function App() {
 
                 <Card>
                     <div className="Image-Overlay">
-                    <Card.Img className="Property-Image" src={cedarAndHolly} alt="211 S Holly St. Denver, CO." />
-                    <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                    <Card.ImgOverlay className="Location-Description">
                         <Card.Title>211 S Holly St. Denver, CO.</Card.Title>
                         <Card.Text>
 Former gas station site redeveloped in 2013 and now home to Park Burger, Novo Coffee, and the original High Point Creamery.
                         </Card.Text>
                     </Card.ImgOverlay>
+                    <Card.Img className="Property-Image" src={cedarAndHolly} alt="211 S Holly St. Denver, CO." />
                     </div>
                 </Card>
 
-
-
-
-
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={sixthAndGrant} alt="300 E 6th Ave. Denver, CO." />
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>300 E 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
 One of four buildings making up a 3/4 block assemblage and home to Starbucks, Le Bakery Sensual, Blue Moon Floral and Little Star Mart.
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={sixthAndGrant} alt="300 E 6th Ave. Denver, CO." />
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={littleIndia} alt="330 E 6th Ave. Denver, CO." />
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>330 E 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
 One of four buildings making up a 3/4 block assemblage and home to Little India.
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={littleIndia} alt="330 E 6th Ave. Denver, CO." />
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={bostonMarket} alt="500 Grant St. Denver, CO." />
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>500 Grant St. Denver, CO.</Card.Title>
                     <Card.Text>
 One of four buildings making up a 3/4 block assemblage and soon to be home to Native Roots Cannabis Co.
                     </Card.Text>
                 </Card.ImgOverlay>
+				<Card.Img className="Property-Image" src={bostonMarket} alt="500 Grant St. Denver, CO." />
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={fivehundredGrant} alt="550 Grant St. Denver, CO." />
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>550 Grant St. Denver, CO.</Card.Title>
                     <Card.Text>
 One of four buildings making up a 3/4 block assemblage and home to the first ever Qdoba Mexican Eats, Dependable Cleaners, Moe's Broadway Bagels, Yogurtland and Snappy Nails.
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={fivehundredGrant} alt="550 Grant St. Denver, CO." />
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={fiveSixtyEightWash} alt="568 N Washington St. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>568 N Washington St. Denver, CO.</Card.Title>
                     <Card.Text>
  Former convenience store transformed into Brother's BBQ.
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={fiveSixtyEightWash} alt="568 N Washington St. Denver, CO."/>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={sixOSixPeoria} alt="606 Peoria St. Aurora, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>606 Peoria St. Aurora, CO.</Card.Title>
                     <Card.Text>
 Approximately 6,847 square foot 6 bay automotive repair facility on 6th Avenue and Peoria Street. 
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={sixOSixPeoria} alt="606 Peoria St. Aurora, CO."/>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={eightOneNineteen} alt="801-819 Colorado Blvd. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>801-819 Colorado Blvd. Denver, CO.</Card.Title>
                     <Card.Text>
 Convenience retail center and home to Starbucks, Canvas Credit Union, The Erawan Café, Edward Jones and Bar Car Tavern.
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={eightOneNineteen} alt="801-819 Colorado Blvd. Denver, CO."/>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={nineTenSixteen} alt="910-918 16th St. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>910-918 16th St. Denver, CO.</Card.Title>
                     <Card.Text>
 One of a kind 12 story mixed use building at 16th and Champa Streets at the Center of Denver's 16th 16th Street Mall.
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={nineTenSixteen} alt="910-918 16th St. Denver, CO."/>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={nineNinetyWest} alt="990 West 6th Ave. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>990 West 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
  6,220 square foot retail center built in 1999 and home to LaMars Donuts, RiverRock, Diamond Nail Spa, Thai Curry Cuisine and Kalamath Liquor.
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={nineNinetyWest} alt="990 West 6th Ave. Denver, CO."/>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={thirteenOthreeEast} alt="1303-1313 East 6th Ave. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>1303-1313 East 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
  In the Denver Country Club Neighborhood sits this 3,555 square foot retail strip, home to Trout’s Fly Fishing and the award winning Fruition Restaurant. 
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={thirteenOthreeEast} alt="1303-1313 East 6th Ave. Denver, CO."/>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={fifteenThirtyFive} alt="1535 E Evans Ave. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>1535 E Evans Ave. Denver, CO.</Card.Title>
                     <Card.Text>
 Former Hamburger Stand restaurant transformed into Birdcall, the latest concept from the people behind Park Burger. 
                     </Card.Text>
                 </Card.ImgOverlay>
+                <Card.Img className="Property-Image" src={fifteenThirtyFive} alt="1535 E Evans Ave. Denver, CO."/>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={twentyOneOOne} alt="2101 S Downing St. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>2101 S Downing St. Denver, CO.</Card.Title>
                     <Card.Text>
 Located in the active University of Denver neighborhood and home to Domino's Pizza.
@@ -363,10 +370,11 @@ Located in the active University of Denver neighborhood and home to Domino's Piz
                 </Card.ImgOverlay>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={twentyOneSixtyThree} alt="2163 28th St. Boulder, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>2163 28th St. Boulder, CO.</Card.Title>
                     <Card.Text>
 1950's 3 bay automotive repair facility and home to Meineke Muffler.in Boulder Colorado 
@@ -374,10 +382,11 @@ Located in the active University of Denver neighborhood and home to Domino's Piz
                 </Card.ImgOverlay>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={twentyFiveSixty} alt="2560 S Havana St. Aurora, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>2560 S Havana St. Aurora, CO.</Card.Title>
                     <Card.Text>
 Leased to Burger King Corporation.
@@ -385,10 +394,11 @@ Leased to Burger King Corporation.
                 </Card.ImgOverlay>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={twentySevenESixth} alt="2700 East 6th Ave. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>2700 East 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
 Located in the Vibrant Cherry Creek North Neighborhood and home to Curtis Park Delicatessen and Thai Nails.
@@ -396,10 +406,11 @@ Located in the Vibrant Cherry Creek North Neighborhood and home to Curtis Park D
                 </Card.ImgOverlay>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={thirtyFourLarimer} alt="3463 Larimer St. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>3463 Larimer St. Denver, CO.</Card.Title>
                     <Card.Text>
 Located in the ever-changing RiNo neighborhood, this 1910 era tavern is seeing new life with The Embassy Tavern.
@@ -407,10 +418,11 @@ Located in the ever-changing RiNo neighborhood, this 1910 era tavern is seeing n
                 </Card.ImgOverlay>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={thirtyFiveLarimer} alt="3500 Larimer St. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>3500 Larimer St. Denver, CO.</Card.Title>
                     <Card.Text>
 Located in the thriving RiNo neighborhood, this building is home to the critically acclaimed Hop Alley Restaurant, Chalk Marketing and Paloma Dental.
@@ -418,10 +430,11 @@ Located in the thriving RiNo neighborhood, this building is home to the critical
                 </Card.ImgOverlay>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={thirtyEightSheridan} alt="3800 Sheridan Blvd. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>3800 Sheridan Blvd. Denver, CO.</Card.Title>
                     <Card.Text>
 Home to Pep Boys Auto Service.
@@ -429,10 +442,11 @@ Home to Pep Boys Auto Service.
                 </Card.ImgOverlay>
                 </div>
             </Card>
+
             <Card>
                 <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={fourThirtyFourTennyson} alt="4034-4040 Tennyson St. Denver, CO."/>
-                <Card.ImgOverlay style={{'marginTop':'30%', 'color': 'white'}}>
+                <Card.ImgOverlay className="Location-Description">
                     <Card.Title>4034-4040 Tennyson St. Denver, CO.</Card.Title>
                     <Card.Text>
 Located in Denver's Berkley neighborhood and home to Allegro Coffee and Il Porcelino Salumi.
@@ -441,12 +455,15 @@ Located in Denver's Berkley neighborhood and home to Allegro Coffee and Il Porce
                 </div>
             </Card>
         </CardColumns>
+
         <Image src={mayorAward} className="Mayor-Award-Jumbo" fluid/>
         <br></br><br></br>
         <hr></hr>
         <br></br>
         <h1 style={{'textAlign':'center'}}>A Sampling of Our Tenants</h1>
+
         <br></br><br></br>
+
         <Carousel>
             <Carousel.Item>
                 <img
@@ -545,23 +562,23 @@ Located in Denver's Berkley neighborhood and home to Allegro Coffee and Il Porce
                 <h1 style={{'textAlign':'center'}}>Get In Touch</h1>
                 <br></br><br></br>
 
-                <CardColumns style={{'margin-left': '30%'}}> 
+                <CardColumns style={{'marginLeft': '30%'}}> 
                     <Card style={{'background': 'none', 'border': '0px'}}> 
                         <Card.Img className="Team-Image" src={nikkiAndRob} alt="Robert & Nikki Naiman" style={{'width': '252px', 'height': '335px'}}/>
                     </Card>
 
-                    <Card style={{'background': 'none', 'border': '0px', 'margin-left': '15%'}}> 
-                        <Card.Img classname="Contact-Icon" src={phoneIcon} alt="Phone-Icon" style={{'width': '42px', 'height': '45px'}}/>
+                    <Card style={{'background': 'none', 'border': '0px', 'marginLeft': '15%'}}> 
+                        <Card.Img className="Contact-Icon" src={phoneIcon} alt="Phone-Icon" style={{'width': '42px', 'height': '45px'}}/>
                         <Figure.Caption style={{color:'black'}}>
                             <p>(303) 534-5929</p>
                         </Figure.Caption>
 
-                        <Card.Img classname="Contact-Icon" src={envelopeIcon} alt="Envelope-Icon" style={{'width': '42px', 'height': '45px'}}/>
+                        <Card.Img className="Contact-Icon" src={envelopeIcon} alt="Envelope-Icon" style={{'width': '42px', 'height': '45px'}}/>
                         <Figure.Caption style={{color:'black'}}>
                             <p> <a href="mailto:nikki@robnaimanco.com"> nikki@robnaimanco.com </a></p>
                         </Figure.Caption>
 
-                        <Card.Img classname="Contact-Icon" src={mapMarker} alt="Map-Marker-Icon" style={{'width': '42px', 'height': '45px'}}/>
+                        <Card.Img className="Contact-Icon" src={mapMarker} alt="Map-Marker-Icon" style={{'width': '42px', 'height': '45px'}}/>
                         <Figure.Caption style={{color:'black'}}>
                             <p>910 16th St, Suite 500 Denver,CO</p>
                         </Figure.Caption>

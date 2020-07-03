@@ -99,7 +99,21 @@ App {
 
 .Property-Image {
    object-fit: cover;
-   opacity: 0.5;
+   opacity: 1;
+   transition: 0.4s;
+   z-index: 3 !important;
+   position: relative;
+}
+
+.Property-Image:hover {
+    opacity: 0.5;
+    z-index: 1 !important;
+}
+
+.Location-Description {
+    margin-top:30%;
+    color: white;
+    z-index: 2 !important;
 }
 
 .Mayor-Award-Jumbo {
