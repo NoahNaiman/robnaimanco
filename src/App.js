@@ -145,7 +145,7 @@ function App() {
                     <Card.Title>Grow Your Business</Card.Title>
                     <hr></hr>
                     <Card.Text>
-                        We are proud to have leased the first location to businesses who went on to great success, growth and expansion. These companies include Qdoba Mexican Eats, Fruition Restaurant, Brother's BBQ and High Point Creamery among others. We know how to spot potential successes and welcome the opportunity to work with both mom and pop retail businesses and national chains alike.
+                        We are proud to have leased the first location to businesses who went on to great success, growth and expansion. These companies include Qdoba Mexican Eats, Fruition Restaurant, Brother's BBQ, and High Point Creamery among others. We know how to spot potential successes and welcome the opportunity to work with both startup retail businesses and national chains alike.
                     </Card.Text>
                 </Card.Body>
             </Card>
