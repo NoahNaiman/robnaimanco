@@ -542,7 +542,7 @@ Convenient Meadow Hills/Southeast Crossing neighborhood location, home to Big O 
 
         <br></br><br></br>
 
-        <Carousel>
+        <Carousel interval="4000">
             <Carousel.Item>
                 <img
                     src={allegro}
