@@ -83,21 +83,21 @@ function App() {
                 <Nav.Link href="/home">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="link-1">Who Are We</Nav.Link>
+                <Nav.Link eventKey="link-1" href="#First-Scroll">Who Are We</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="link-2">Our Properties</Nav.Link>
+                <Nav.Link eventKey="link-2" href="#Second-Scroll">Our Properties</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="link-4">Contact</Nav.Link>
+                <Nav.Link eventKey="link-4" href="#Third-Scroll">Contact</Nav.Link>
             </Nav.Item>
         </Nav>
         <header className="App-header">
             <Image src={pencil} fluid />
         </header>
-        <Jumbotron fluid>
+        <Jumbotron fluid id="First-Scroll">
             <Container>
-                <h1 className="Whom-Title">Who Are We</h1>
+                <h1 id="Whom-Title">Who Are We</h1>
                     <p></p>
                     <p>
                         The Robert L. Naiman Company, LLC, is a privately owned real estate firm based in Denver, Colorado, focused on the acquisition, development and management of commercial in-fill properties.
@@ -214,7 +214,7 @@ function App() {
                 nikki@robnaimanco.com
             </Figure.Caption>
         </Figure>
-        <br></br><br></br>
+        <br id="Second-Scroll"></br><br></br>
         <hr></hr>
         <br></br>
         <h1 style={{'textAlign':'center'}}>Our Properties</h1>
@@ -635,7 +635,7 @@ Convenient Meadow Hills/Southeast Crossing neighborhood location, home to Big O 
                 />
             </Carousel.Item>
         </Carousel>
-        <Jumbotron fluid>
+        <Jumbotron fluid id="Third-Scroll">
             <Container>
                 <h1 style={{'textAlign':'center'}}>Get In Touch</h1>
                 <br></br><br></br>
