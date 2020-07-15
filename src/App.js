@@ -21,6 +21,7 @@ import fivehundredGrant from './img/500grantstreet.jpg';
 import fiveSixtyEightWash from './img/568nwashington.jpg';
 import fortyEightThirtyNineEColfax from './img/4839EastColfax.jpg';
 import fourThirtyFourTennyson from './img/403440tennyson.jpg';
+import fortyTwoTFiftyEColfax from './img/4250WestColfax.jpeg';
 import fruition from './img/Fruition.png';
 import handshakeIcon from './img/handshake.svg';
 import highPoint from './img/HighPoint.png';
@@ -53,6 +54,7 @@ import twentyFiveSixty from './img/2560shavana.jpg';
 import twentyOneOOne from './img/2101sdowning.jpg';
 import twentyOneSixtyThree from './img/216328boulder.jpg';
 import twentySevenESixth from './img/2700e6th.jpg';
+import seventyFiveHundredPecos from './img/7500Pecos.jpeg';
 import sixthAndGrant from './img/6thandgrant.jpg';
 import sixtyFourNinNineLeets from './img/6499Leetsdale.jpg';
 import sixtyThreeHundredEast from './img/6300East14th.jpg';
@@ -462,6 +464,18 @@ Vibrant Berkeley/West Highlands/Wheatridge neighborhood location, home to Allegr
 
 			<Card>
                 <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={fortyTwoTFiftyEColfax} alt="4250 West Colfax Ave. Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description">
+                    <Card.Title>4250 West Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Text>
+Growing Sloan’s Lake/West Colfax neighborhood and home to Big Daddy’s Pizza.
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+			<Card>
+                <div className="Image-Overlay">
                 <Card.Img className="Property-Image" src={fortyEightThirtyNineEColfax} alt="4839 East Colfax Ave. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description">
                     <Card.Title>4839 East Colfax Ave. Denver, CO.</Card.Title>
@@ -479,6 +493,18 @@ Eclectic City Park/ South Park Hill/ Hale/Montclair neighborhood. Coming Soon: A
                     <Card.Title>46300 East 14th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
 South Park Hill/Hale/Montclair neighborhood location, home to Conoco Gas and Service Center.
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+            <Card>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={seventyFiveHundredPecos} alt="7500 Pecos Street. Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description">
+                    <Card.Title>7500 Pecos Street. Denver, CO.</Card.Title>
+                    <Card.Text>
+Western Hills/Twin Lakes neighborhood location, with immediate Denver/Boulder Turnpike access and home to Big O Tires.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
