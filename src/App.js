@@ -576,7 +576,7 @@ Thriving Fitzsimons/Hoffman Heights neighborhood, home to Top Pho restaurant.
 
         <br></br><br></br>
 
-        <Carousel interval="4000">
+        <Carousel interval="2000">
             <Carousel.Item>
                 <img
                     src={allegro}
