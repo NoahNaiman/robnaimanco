@@ -582,91 +582,102 @@ Thriving Fitzsimons/Hoffman Heights neighborhood, home to Top Pho restaurant.
                 <img
                     src={allegro}
                     alt="Allegor Coffe Roasters"
+                    style={{marginLeft: "5%", height: "30%", width: "30%"}}
                 />
                 <img
                     src={birdcall}
                     alt="Birdcall"
-                    style={{marginLeft: '4%'}}
+                    style={{height: "30%", width: "30%"}}
                 />
                 <img
                     src={brotherBBQ}
                     alt="Brothers BBQ"
-                    style={{marginLeft: '3%'}}
+                    style={{height: "30%", width: "30%"}}
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     src={burgerKing}
                     alt="Burger King"
+                    style={{marginLeft: "5%", height: "30%", width: "30%"}}
                 />
                 <img
                     src={curtisParkDeli}
                     alt="Curtis Park Deli"
+                    style={{height: "30%", width: "30%"}}
                 />
                 <img
                     src={dependableCleaners}
                     alt="Dependable Cleaners"
+                    style={{height: "30%", width: "30%"}}
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     src={dominos}
                     alt="Dominos Pizza"
+                    style={{marginLeft: "5%", height: "30%", width: "30%"}}
                 />
                 <img
                     src={fruition}
                     alt="Fruition Restaurant"
+                    style={{height: "30%", width: "30%"}}
                 />
                 <img
                     src={highPoint}
                     alt="HighPoint Creamery"
+                    style={{height: "30%", width: "30%"}}
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     src={hopAlley}
                     alt="Hop Alley Restauarant"
-                    style={{marginLeft: '2%'}}
+                    style={{marginLeft: "5%", height: "30%", width: "30%"}}
                 />
                 <img
                     src={ilPorcelino}
                     alt="Il Porcellino"
-                    style={{marginLeft: '5%'}}
+                    style={{height: "30%", width: "30%"}}
                 />
                 <img
                     src={lamars}
                     alt="Lamar's Donuts"
-                    style={{marginLeft: '8%'}}
+                    style={{height: "30%", width: "30%"}}
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     src={leBakery}
                     alt="Le Bakery Sensual"
+                    style={{marginLeft: "5%", height: "30%", width: "30%"}}
                 />
                 <img
                     src={moes}
                     alt="Moe's Bagels"
-                    style={{marginLeft: '-2%'}}
+                    style={{height: "30%", width: "30%"}}
                 />
                 <img
                     src={paloma}
                     alt="Paloma Dental"
+                    style={{height: "30%", width: "30%"}}
                 />
             </Carousel.Item>
             <Carousel.Item>
                 <img
                     src={parkBurgerLogo}
                     alt="Park Burger"
-                    style={{marginLeft: '-1%'}}
+                    style={{marginLeft: "5%", height: "30%", width: "30%"}}
                 />
                 <img
                     src={qdoba}
                     alt="Qdoba"
+                    style={{height: "30%", width: "30%"}}
                 />
                 <img
                     src={yogurtland}
                     alt="Yogurtland"
+                    style={{height: "30%", width: "30%"}}
                 />
             </Carousel.Item>
         </Carousel>
