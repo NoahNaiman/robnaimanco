@@ -221,7 +221,7 @@ function App() {
         <br></br>
         <h1 style={{'textAlign':'center'}}>Our Properties</h1>
         <br></br><br></br>
-        <CardColumns>
+        <CardColumns style={{height: "100%", width: "100%"}}>
                 <Card>
                     <div className="Image-Overlay">
                     <Card.ImgOverlay className="Location-Description">
@@ -450,7 +450,7 @@ Growing Stapleton/South Park Hill/Lowry neighborhood location, home to Domino’
                 </div>
             </Card>
 
-            <Card style={{background: "grey", height: "318px", textAlign: "center"}}>
+            <Card style={{background: "grey", height: "20rem", textAlign: "center"}}>
                 <Card.Title>Coming Soon!</Card.Title>
             </Card>
 
@@ -562,7 +562,7 @@ Thriving Fitzsimons/Hoffman Heights neighborhood, home to Top Pho restaurant.
                 </div>
             </Card>
 
-            <Card style={{background: "grey", height: "318px", textAlign: "center"}}>
+            <Card style={{background: "grey", height: "20rem", textAlign: "center"}}>
                 <Card.Title>Coming Soon!</Card.Title>
             </Card>
 
@@ -576,7 +576,7 @@ Thriving Fitzsimons/Hoffman Heights neighborhood, home to Top Pho restaurant.
 
         <br></br><br></br>
 
-        <Carousel interval="2000">
+        <Carousel interval={2000}>
             <Carousel.Item>
                 <img
                     src={allegro}
