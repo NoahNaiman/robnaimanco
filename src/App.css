@@ -99,22 +99,22 @@ html {
 }
 
 .Property-Image {
-   object-fit: cover;
-   opacity: 1;
-   transition: all 0.3s;
-   z-index: 3 !important;
-   position: relative;
+    object-fit: cover;
+    opacity: 1;
+    transition: all 0.3s;
+    z-index: 3 !important;
+    position: relative;
 }
 
 .Property-Image:hover {
-    opacity: 0.5;
+    opacity: 0.3;
     z-index: 1 !important;
 }
 
 .Location-Description {
     margin-top:30%;
     color: white;
-    z-index: 2 !important;
+    z-index: 0 !important;
 }
 
 .Mayor-Award-Jumbo {
