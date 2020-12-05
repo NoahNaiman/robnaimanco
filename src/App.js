@@ -3,7 +3,7 @@ import React from 'react';
 import allegro from './img/Allegro.png';
 import barchartIcon from './img/bar-chart.svg';
 import birdcall from './img/bcall.jpg';
-import bostonMarket from './img/bostonmarket.jpg';
+import nativeRoots from './img/nativeRoots.jpg';
 import brotherBBQ from './img/BrothersBBQ.png';
 import buildingIcon from './img/building.svg';
 import burgerKing from './img/Burgerking.png';
@@ -243,7 +243,7 @@ Prosperous Hilltop/Crestmoor/Lowry neighborhood location, home to Park Burger, H
 Fantastic Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Native Roots Dispensary.
                     </Card.Text>
                 </Card.ImgOverlay>
-                <Card.Img className="Property-Image" src={bostonMarket} alt="500 Grant St. Denver, CO." />
+                <Card.Img className="Property-Image" src={nativeRoots} alt="500 Grant St. Denver, CO." />
                 </div>
             </Card>
 
