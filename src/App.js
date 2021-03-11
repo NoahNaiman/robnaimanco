@@ -77,7 +77,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
-        <Nav className="Navbar" variant="pills" defaultActiveKey="/home">
+        <Nav className="Navbar" variant="pills" defaultActiveKey="/">
             <Nav.Item>
                 <Image src={logoWhite} fluid className="Navbar-logo"/>
             </Nav.Item>
