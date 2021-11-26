@@ -102,13 +102,13 @@ function App() {
                 <h1 id="Whom-Title">Who Are We</h1>
                     <p></p>
                     <p>
-                        The Robert L. Naiman Company, LLC, is a privately owned real estate firm based in Denver, Colorado, focused on the acquisition, development and management of commercial in-fill properties.
+                        The Robert L. Naiman Company, LLC, is a privately owned real estate firm based in Denver, Colorado focused on acquiring, developing and managing commercial in-fill property.
                     </p>
                     <p>
-                        Our goal is to deliver quality projects that support the entrepreneurial endeavors of our tenants and contribute to the communities in which they are located.
+                        Our projects provide high impact locations that drive revenue for our tenants and contribute to the surrounding communities.
                     </p>
                     <p>
-                        Our properties are located throughout metropolitan Denver’s most desirable neighborhoods. Each property occupies a corner site, at a key intersection, affording our tenants maximum visibility and access. We offer new and growing businesses various operating formats including: retail (freestanding, in-line and drive-thru) restaurant/tavern, automotive, office, and mixed-use.
+                        Our spaces are located across Denver’s most desirable neighborhoods. E occupies a corner location, at a key intersection for maximum visibility and access. We offer new and growing businesses formats including: freestanding, in-line, drive-thru restaurant/tavern, automotive, office, and mixed-use.
                     </p>
                     <p>
                         The Denver Metropolitan Commercial Association of Realtors (DMCAR) and The Denver Business Journal have twice named The Robert L. Naiman Company, LLC, Retail Landlord of The Year.
