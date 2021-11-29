@@ -108,7 +108,7 @@ function App() {
                         Our projects provide high impact locations that drive revenue for our tenants and contribute to the surrounding communities.
                     </p>
                     <p>
-                        Our spaces are located across Denver’s most desirable neighborhoods. E occupies a corner location, at a key intersection for maximum visibility and access. We offer new and growing businesses formats including: freestanding, in-line, drive-thru restaurant/tavern, automotive, office, and mixed-use.
+                        Our spaces are located across Denver’s most desirable neighborhoods. Each occupies a corner location, at a key intersection for maximum visibility and access. We offer new and growing businesses formats including: freestanding, in-line, drive-thru restaurant/tavern, automotive, office, and mixed-use.
                     </p>
                     <p>
                         The Denver Metropolitan Commercial Association of Realtors (DMCAR) and The Denver Business Journal have twice named The Robert L. Naiman Company, LLC, Retail Landlord of The Year.
