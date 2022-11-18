@@ -228,7 +228,7 @@ function App() {
                     <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                         <Card.Title>211 S Holly St. Denver, CO.</Card.Title>
                         <Card.Text>
-Prosperous Hilltop/Crestmoor/Lowry neighborhood location, home to Park Burger, High Point Creamery and a soon to be anounced third restaurant.
+Prosperous Hilltop/Crestmoor/Lowry neighborhood location, home to Park Burger, High Point Creamery, and The Rotary.
                         </Card.Text>
                     </Card.ImgOverlay>
                     <Card.Img className="Property-Image" src={cedarAndHolly} alt="211 S Holly St. Denver, CO." />
@@ -313,7 +313,7 @@ Burgeoning Berkeley/West Highlands/Wheatridge neighborhood, location home to Mid
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>4839 East Colfax Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Eclectic City Park/ South Park Hill/ Hale/Montclair neighborhood. Coming Soon: A new Neapolitan pizza restaurant/Italian beer garden with Bocce ball courts!
+Eclectic City Park/ South Park Hill/ Hale/Montclair neighborhood. Home to Benzina Italian Restaurant.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -384,7 +384,7 @@ Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location, home to St
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>1303-1313 East 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
- Flourishing Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Fruition Restaurant. Available: Retail/Office and living spaces. 
+ Flourishing Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Fruition Restaurant and Ahimsa Yoga.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={thirteenOthreeEast} alt="1303-1313 East 6th Ave. Denver, CO."/>
@@ -421,7 +421,7 @@ Exciting RINO/Curtis Park neighborhood location, home to the Embassy Tavern.Loca
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>4034-4040 Tennyson St. Denver, CO.</Card.Title>
                     <Card.Text>
-Vibrant Berkeley/West Highlands/Wheatridge neighborhood location, home to Allegro Coffee and Il Porcellino Salumi.
+Vibrant Berkeley/West Highlands/Wheatridge neighborhood location, home to Huckleberry Roasters and Il Porcellino Salumi.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -521,7 +521,7 @@ Thriving Kennedy Golf Course/ Dam East /West neighborhood location, home to Burg
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>3500 Larimer St. Denver, CO.</Card.Title>
                     <Card.Text>
-Electrifying RINO/Curtis Park neighborhood location, home to Hop Alley Restaurant, Chalk Media and Paloma Dental.
+Electrifying RINO/Curtis Park neighborhood location, home to Hop Alley Restaurant and Paloma Dental.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
