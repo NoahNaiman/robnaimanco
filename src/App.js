@@ -360,7 +360,7 @@ Vibrant Capitol Hill/Alamo Placita/Country Club neighborhood location, home to S
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>550 Grant St. Denver, CO.</Card.Title>
                     <Card.Text>
-Bustling Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Qdoba Mexican Eats. Yogurtland, Cosmo’s Pizza and Snappy Nails. Now Available: Approximately 859 square feet.
+Bustling Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Qdoba Mexican Eats. Yogurtland, Cosmo’s Pizza, Snappy Nails, and Quality Glass and Vapes.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={fivehundredGrant} alt="550 Grant St. Denver, CO." />
@@ -372,7 +372,7 @@ Bustling Capitol Hill/Alamo Placita/Country Club neighborhood location, home to 
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>801-819 Colorado Blvd. Denver, CO.</Card.Title>
                     <Card.Text>
-Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location, home to Starbucks Coffee, Canvas Credit Union, Bar Car Tavern, Edward Jones Financial and Erawan Thai Café.
+Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location, home to Starbucks Coffee, Canvas Credit Union, Bar Car Tavern, and Erawan Thai Café. Now available: Approximately 1000 square feet.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={eightOneNineteen} alt="801-819 Colorado Blvd. Denver, CO."/>
