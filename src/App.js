@@ -9,7 +9,7 @@ import buildingIcon from './img/building.svg';
 import burgerKing from './img/Burgerking.png';
 import cedarAndHolly from './img/cedarandholly.jpg';
 import curtisParkDeli from './img/CurtisParkDeli.png';
-import dependableCleaners from './img/DependableCleaners.png';
+import huckleberryRoasters from './img/HuckleberryRoasters.png';
 import dominos from './img/Dominos.png';
 import eightOneNineteen from './img/801819COBlvd.jpg';
 import eightyThirtyOneEastColfax from './img/8031EastColfax.jpg';
@@ -193,7 +193,7 @@ function App() {
                Robert L. Naiman
             </Figure.Caption>
             <Figure.Caption style={{color:'grey', 'fontSize': 'calc(3px + 2vmin)'}}>
-                Founding Principial & Managing Partner
+                Founding Principal & Managing Partner
             </Figure.Caption>
             <Figure.Caption style={{color:'black', 'fontSize': 'calc(3px + 2vmin)'}}>
                 rob@robnaimanco.com
@@ -577,7 +577,7 @@ Thriving Fitzsimons/Hoffman Heights neighborhood, home to Top Pho restaurant.
 
         <br></br><br></br>
 
-        <Carousel interval={1500}>
+        <Carousel interval={2000} pause={false}>
             <Carousel.Item>
                 <img
                     src={allegro}
@@ -607,8 +607,8 @@ Thriving Fitzsimons/Hoffman Heights neighborhood, home to Top Pho restaurant.
                     style={{height: "30%", width: "30%"}}
                 />
                 <img
-                    src={dependableCleaners}
-                    alt="Dependable Cleaners"
+                    src={huckleberryRoasters}
+                    alt="Huckleberry Roasters"
                     style={{height: "30%", width: "30%"}}
                 />
             </Carousel.Item>
