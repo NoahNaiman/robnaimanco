@@ -102,7 +102,7 @@ function App() {
                 <h1 id="Whom-Title">Who Are We</h1>
                     <p></p>
                     <p>
-                        The Robert L. Naiman Company, LLC, is a privately owned real estate firm based in Denver, Colorado focused on acquiring, developing and managing commercial in-fill property.
+                        The Robert L. Naiman Company, LLC, is a privately owned real estate firm based in Denver, Colorado focused on acquiring, developing, and managing commercial in-fill property.
                     </p>
                     <p>
                         Our projects provide high impact locations that drive revenue for our tenants and contribute to the surrounding communities.
@@ -147,7 +147,7 @@ function App() {
                     <Card.Title>Grow Your Business</Card.Title>
                     <hr></hr>
                     <Card.Text>
-                        We are proud to have leased the first location to businesses who went on to great success, growth and expansion. These companies include Qdoba Mexican Eats, Fruition Restaurant, Brother's BBQ, and High Point Creamery among others. We know how to spot potential successes and welcome the opportunity to work with both startup retail businesses and national chains alike.
+                        We are proud to have leased the first location to businesses who went on to great success, growth, and expansion. These companies include Qdoba Mexican Eats, Fruition Restaurant, Brother's BBQ, and High Point Creamery among others. We know how to spot potential successes and welcome the opportunity to work with both startup retail businesses and national chains alike.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -164,7 +164,7 @@ function App() {
                  src={personIcon}		
              />		
              <Figure.Caption style={{color:'white'}}>		
-                 <strong>125</strong> <br></br> Tenants		
+                 <strong>120+</strong> <br></br> Tenants		
              </Figure.Caption>		
          </Figure>		
          <Figure className="Awards-Icon" style={{'marginTop':'-105% !important'}}>		
@@ -228,7 +228,7 @@ function App() {
                     <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                         <Card.Title>211 S Holly St. Denver, CO.</Card.Title>
                         <Card.Text>
-Prosperous Hilltop/Crestmoor/Lowry neighborhood location, home to Park Burger, High Point Creamery, and The Rotary.
+Prosperous Hilltop/Crestmoor/Lowry neighborhood location. Home to Park Burger, High Point Creamery, and The Rotary.
                         </Card.Text>
                     </Card.ImgOverlay>
                     <Card.Img className="Property-Image" src={cedarAndHolly} alt="211 S Holly St. Denver, CO." />
@@ -240,7 +240,7 @@ Prosperous Hilltop/Crestmoor/Lowry neighborhood location, home to Park Burger, H
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>500 Grant St. Denver, CO.</Card.Title>
                     <Card.Text>
-Fantastic Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Native Roots Dispensary.
+Fantastic Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to Native Roots Dispensary.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={nativeRoots} alt="500 Grant St. Denver, CO." />
@@ -252,7 +252,7 @@ Fantastic Capitol Hill/Alamo Placita/Country Club neighborhood location, home to
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>606 Peoria St. Aurora, CO.</Card.Title>
                     <Card.Text>
-Expanding Fitzsimons/Hoffman Heights neighborhood location, home to Mobile One Cellular. Now Available: Approximately 5,000 square foot 6-bay automotive facility. 
+Expanding Fitzsimons/Hoffman Heights neighborhood location. Home to Mobile One Cellular and Llantera Del Norte Inc. 
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={sixOSixPeoria} alt="606 Peoria St. Aurora, CO."/>
@@ -264,7 +264,7 @@ Expanding Fitzsimons/Hoffman Heights neighborhood location, home to Mobile One C
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>990 West 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
- Bustling Baker/Lincoln Park/Capitol Hill neighborhood location, home to LaMar’s Donuts, Riverrock Dispensary, Diamond Nails, Kalamath Liquors and Thai Curry Café.
+ Bustling Baker/Lincoln Park/Capitol Hill neighborhood location. Home to LaMar’s Donuts, Rocky Mountain High Dispensary, Diamond Nails, Kalamath Liquors, and Thai Curry Café.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={nineNinetyWest} alt="990 West 6th Ave. Denver, CO."/>
@@ -277,7 +277,7 @@ Expanding Fitzsimons/Hoffman Heights neighborhood location, home to Mobile One C
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>2101 S Downing St. Denver, CO.</Card.Title>
                     <Card.Text>
-Booming University of Denver/University Park neighborhood location, home to Domino’s Pizza.
+Booming University of Denver/University Park neighborhood location. Home to Domino’s Pizza.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -289,7 +289,7 @@ Booming University of Denver/University Park neighborhood location, home to Domi
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>2700 East 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Prosperous Cherry Creek/Country Club neighborhood location, home to Curtis Park Deli and Thai Nail Salon.
+Prosperous Cherry Creek/Country Club neighborhood location. Home to Curtis Park Deli and Cherry Creek Nail Spa.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -301,7 +301,7 @@ Prosperous Cherry Creek/Country Club neighborhood location, home to Curtis Park 
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>3800 Sheridan Blvd. Denver, CO.</Card.Title>
                     <Card.Text>
-Burgeoning Berkeley/West Highlands/Wheatridge neighborhood, location home to Midas. 
+Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Midas. 
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -313,7 +313,7 @@ Burgeoning Berkeley/West Highlands/Wheatridge neighborhood, location home to Mid
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>4839 East Colfax Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Eclectic City Park/ South Park Hill/ Hale/Montclair neighborhood. Home to Benzina Italian Restaurant.
+Eclectic City Park/South Park Hill/Hale/Montclair neighborhood. Home to Benzina.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -325,7 +325,7 @@ Eclectic City Park/ South Park Hill/ Hale/Montclair neighborhood. Home to Benzin
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>7500 Pecos Street. Denver, CO.</Card.Title>
                     <Card.Text>
-Western Hills/Twin Lakes neighborhood location, with immediate Denver/Boulder Turnpike access and home to Big O Tires.
+Western Hills/Twin Lakes neighborhood location, with immediate Denver/Boulder Turnpike access. Home to Big O Tires.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -337,7 +337,7 @@ Western Hills/Twin Lakes neighborhood location, with immediate Denver/Boulder Tu
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>15320 E Iliff Ave. Aurora CO.</Card.Title>
                     <Card.Text>
-Convenient Meadow Hills/Southeast Crossing neighborhood location, home to Big O Tires.
+Convenient Meadow Hills/Southeast Crossing neighborhood location. Home to Big O Tires.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -348,7 +348,7 @@ Convenient Meadow Hills/Southeast Crossing neighborhood location, home to Big O 
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>300 E 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Vibrant Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Starbucks, Le Bakery Sensual, Bluemoon Floral and Little Star Mart.
+Vibrant Capitol Hill/Alamo Placita/Country Club neighborhood location. Home Le Bakery Sensual, Bluemoon Floral, Little Star Market, and Lil' Coffea.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={sixthAndGrant} alt="300 E 6th Ave. Denver, CO." />
@@ -360,7 +360,7 @@ Vibrant Capitol Hill/Alamo Placita/Country Club neighborhood location, home to S
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>550 Grant St. Denver, CO.</Card.Title>
                     <Card.Text>
-Bustling Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Qdoba Mexican Eats. Yogurtland, Cosmo’s Pizza, Snappy Nails, and Quality Glass and Vapes.
+Bustling Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to Qdoba Mexican Eats, Yogurtland, Cosmo’s Pizza, Blue Ocean Nails, and Quality Glass and Vapes.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={fivehundredGrant} alt="550 Grant St. Denver, CO." />
@@ -372,7 +372,7 @@ Bustling Capitol Hill/Alamo Placita/Country Club neighborhood location, home to 
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>801-819 Colorado Blvd. Denver, CO.</Card.Title>
                     <Card.Text>
-Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location, home to Starbucks Coffee, Canvas Credit Union, Bar Car Tavern, and Erawan Thai Café. Now available: Approximately 1000 square feet.
+Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location. Home to Starbucks Coffee, Canvas Credit Union, Bar Car Tavern, Erawan Thai Café, and a new tenant coming soon!
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={eightOneNineteen} alt="801-819 Colorado Blvd. Denver, CO."/>
@@ -384,7 +384,7 @@ Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location, home to St
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>1303-1313 East 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
- Flourishing Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Fruition Restaurant and Ahimsa Yoga.
+ Flourishing Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to Fruition Restaurant and Ahimsa Yoga.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={thirteenOthreeEast} alt="1303-1313 East 6th Ave. Denver, CO."/>
@@ -397,7 +397,7 @@ Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location, home to St
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>2163 28th St. Boulder, CO.</Card.Title>
                     <Card.Text>
-Flourishing University of Colorado/Central Boulder neighborhood location, home to Meineke Muffler.
+Flourishing University of Colorado/Central Boulder neighborhood location. Home to Meineke Muffler.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -409,7 +409,7 @@ Flourishing University of Colorado/Central Boulder neighborhood location, home t
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>3463 Larimer St. Denver, CO.</Card.Title>
                     <Card.Text>
-Exciting RINO/Curtis Park neighborhood location, home to the Embassy Tavern.Located in the ever-changing RiNo neighborhood, this 1910 era building is seeing new life with The Embassy Tavern.
+Exciting RINO/Curtis Park neighborhood location. Home to the Embassy Tavern.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -421,7 +421,7 @@ Exciting RINO/Curtis Park neighborhood location, home to the Embassy Tavern.Loca
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>4034-4040 Tennyson St. Denver, CO.</Card.Title>
                     <Card.Text>
-Vibrant Berkeley/West Highlands/Wheatridge neighborhood location, home to Huckleberry Roasters and Il Porcellino Salumi.
+Vibrant Berkeley/West Highlands/Wheatridge neighborhood location. Home to Huckleberry Roasters, Berkely Supply Company, and Il Porcellino Salumi & Pasta.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -433,7 +433,7 @@ Vibrant Berkeley/West Highlands/Wheatridge neighborhood location, home to Huckle
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>6300 East 14th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-South Park Hill/Hale/Montclair neighborhood location, home to Conoco Gas and Service Center.
+South Park Hill/Hale/Montclair neighborhood location. Home to Conoco Gas and Service Center.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -445,7 +445,7 @@ South Park Hill/Hale/Montclair neighborhood location, home to Conoco Gas and Ser
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>8031 East Colfax Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Growing Stapleton/South Park Hill/Lowry neighborhood location, home to Domino’s Pizza.
+Growing Stapleton/South Park Hill/Lowry neighborhood location. Home to Domino’s Pizza.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -460,7 +460,7 @@ Growing Stapleton/South Park Hill/Lowry neighborhood location, home to Domino’
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>330 E 6th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Thriving Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Little India Restaurant.
+Thriving Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to Little India Restaurant.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={littleIndia} alt="330 E 6th Ave. Denver, CO." />
@@ -472,7 +472,7 @@ Thriving Capitol Hill/Alamo Placita/Country Club neighborhood location, home to 
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>568 N Washington St. Denver, CO.</Card.Title>
                     <Card.Text>
- Rare Capitol Hill/Alamo Placita/Country Club neighborhood location, home to Brother’s BBQ Restaurant.
+ Rare Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to Brother’s BBQ Restaurant.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={fiveSixtyEightWash} alt="568 N Washington St. Denver, CO."/>
@@ -484,7 +484,7 @@ Thriving Capitol Hill/Alamo Placita/Country Club neighborhood location, home to 
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>900-918 16th St. Denver, CO.</Card.Title>
                     <Card.Text>
-                    Busy Central Business District location, 12-story mixed-use office above retail, home to multiple tenants.                    
+                    Busy Central Business District location. 12-story mixed-use office above retail, home to multiple tenants.                    
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={nineTenSixteen} alt="900-918 16th St. Denver, CO."/>
@@ -496,7 +496,7 @@ Thriving Capitol Hill/Alamo Placita/Country Club neighborhood location, home to 
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>1535 E Evans Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Booming University of Denver/University Park neighborhood location, home to Birdcall Restaurant.
+Booming University of Denver/University Park neighborhood location. Home to Birdcall Restaurant.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={fifteenThirtyFive} alt="1535 E Evans Ave. Denver, CO."/>
@@ -509,7 +509,7 @@ Booming University of Denver/University Park neighborhood location, home to Bird
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}} >
                     <Card.Title>2560 S Havana St. Aurora, CO.</Card.Title>
                     <Card.Text>
-Thriving Kennedy Golf Course/ Dam East /West neighborhood location, home to Burger King.
+Thriving Kennedy Golf Course/Dam East/West neighborhood location. Home to Burger King.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -521,7 +521,7 @@ Thriving Kennedy Golf Course/ Dam East /West neighborhood location, home to Burg
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>3500 Larimer St. Denver, CO.</Card.Title>
                     <Card.Text>
-Electrifying RINO/Curtis Park neighborhood location, home to Hop Alley Restaurant and Paloma Dental.
+Electrifying RINO/Curtis Park neighborhood location. Home to Hop Alley Restaurant and Paloma Dental.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -533,7 +533,7 @@ Electrifying RINO/Curtis Park neighborhood location, home to Hop Alley Restauran
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>4250 West Colfax Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Growing Sloan’s Lake/West Colfax neighborhood and home to Big Daddy’s Pizza.
+Growing Sloan’s Lake/West Colfax neighborhood. Home to Big Daddy’s Pizza.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -545,7 +545,7 @@ Growing Sloan’s Lake/West Colfax neighborhood and home to Big Daddy’s Pizza.
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>6499 Leetsdale Drive. Denver, CO.</Card.Title>
                     <Card.Text >
-Busy Hilltop/Crestmoor/Winston Downs/Virginia Vale neighborhood location, home to Denver’s first Brother’s BBQ restaurant.
+Busy Hilltop/Crestmoor/Winston Downs/Virginia Vale neighborhood location. Home to Denver’s first Brother’s BBQ restaurant.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -557,15 +557,19 @@ Busy Hilltop/Crestmoor/Winston Downs/Virginia Vale neighborhood location, home t
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>11697 East Colfax Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Thriving Fitzsimons/Hoffman Heights neighborhood, home to Top Pho restaurant.
+Thriving Fitzsimons/Hoffman Heights neighborhood. Home to Top Pho.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
             </Card>
 
             <Card style={{background: "grey", height: "15rem", textAlign: "center"}}>
-                <Card.Title>Coming Soon!</Card.Title>
+                <Card.Title>4802 West 38th Avenue</Card.Title>
+                <Card.Text>
+Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Pho Fusion Asian. 
+                </Card.Text>
             </Card>
+
 
         </CardColumns>
 
