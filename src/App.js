@@ -1,7 +1,7 @@
 import React from 'react';
 
-import allegro from './img/Allegro.png';
 import barchartIcon from './img/bar-chart.svg';
+import berkelySupply from './img/BerkelySupply.png'
 import birdcall from './img/bcall.jpg';
 import nativeRoots from './img/nativeRoots.jpg';
 import brotherBBQ from './img/BrothersBBQ.png';
@@ -22,6 +22,7 @@ import fiveSixtyEightWash from './img/568nwashington.jpg';
 import fortyEightThirtyNineEColfax from './img/4839EastColfax.jpg';
 import fourThirtyFourTennyson from './img/403440tennyson.jpg';
 import fortyTwoTFiftyEColfax from './img/4250WestColfax.jpeg';
+import fortyEightOTwoWThirtyEighth from './img/4802West38.jpg';
 import fruition from './img/Fruition.png';
 import handshakeIcon from './img/handshake.svg';
 import highPoint from './img/HighPoint.png';
@@ -228,7 +229,7 @@ function App() {
                     <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                         <Card.Title>211 S Holly St. Denver, CO.</Card.Title>
                         <Card.Text>
-Prosperous Hilltop/Crestmoor/Lowry neighborhood location. Home to Park Burger, High Point Creamery, and The Rotary.
+Prosperous Hilltop/Crestmoor/Lowry neighborhood location. Home to Park Burger, High Point Creamery, and Call Your Mother Bagel Deli.
                         </Card.Text>
                     </Card.ImgOverlay>
                     <Card.Img className="Property-Image" src={cedarAndHolly} alt="211 S Holly St. Denver, CO." />
@@ -240,7 +241,7 @@ Prosperous Hilltop/Crestmoor/Lowry neighborhood location. Home to Park Burger, H
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>500 Grant St. Denver, CO.</Card.Title>
                     <Card.Text>
-Fantastic Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to Native Roots Dispensary.
+Thriving Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to Native Roots Dispensary.
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={nativeRoots} alt="500 Grant St. Denver, CO." />
@@ -313,7 +314,7 @@ Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Midas.
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>4839 East Colfax Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Eclectic City Park/South Park Hill/Hale/Montclair neighborhood. Home to Benzina.
+Eclectic City Park/South Park Hill/Hale/Montclair neighborhood. Home to Benzina Restaurant.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -372,7 +373,7 @@ Bustling Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to 
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>801-819 Colorado Blvd. Denver, CO.</Card.Title>
                     <Card.Text>
-Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location. Home to Starbucks Coffee, Canvas Credit Union, Bar Car Tavern, Erawan Thai Café, and a new tenant coming soon!
+Flourishing Congress Park/Cherry Creek/Hilltop neighborhood location. Home to Starbucks Coffee, Canvas Credit Union, Bar Car Tavern, Erawan Thai Café, and AT&T Wireless!
                     </Card.Text>
                 </Card.ImgOverlay>
                 <Card.Img className="Property-Image" src={eightOneNineteen} alt="801-819 Colorado Blvd. Denver, CO."/>
@@ -451,8 +452,16 @@ Growing Stapleton/South Park Hill/Lowry neighborhood location. Home to Domino’
                 </div>
             </Card>
 
-            <Card style={{background: "grey", height: "15rem", textAlign: "center"}}>
-                <Card.Title>Coming Soon!</Card.Title>
+            <Card style={{height: "15rem"}}>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={fortyEightOTwoWThirtyEighth} alt="4802 West 38th Avenue, Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
+                    <Card.Title>4802 West 38th Avenue, Denver, CO.</Card.Title>
+                    <Card.Text>
+Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Pho Fusion Asian.
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
             </Card>
 
 			<Card style={{height: "15rem"}}>
@@ -541,7 +550,7 @@ Growing Sloan’s Lake/West Colfax neighborhood. Home to Big Daddy’s Pizza.
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={sixtyFourNinNineLeets} alt="6499 Leetsdale Drive. Denver, CO."/>
+                <Card.Img className="Property-Image" src={sixtyFourNinNineLeets} alt="6499 Leetsdale Drive, Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>6499 Leetsdale Drive. Denver, CO.</Card.Title>
                     <Card.Text >
@@ -564,10 +573,7 @@ Thriving Fitzsimons/Hoffman Heights neighborhood. Home to Top Pho.
             </Card>
 
             <Card style={{background: "grey", height: "15rem", textAlign: "center"}}>
-                <Card.Title>4802 West 38th Avenue</Card.Title>
-                <Card.Text>
-Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Pho Fusion Asian. 
-                </Card.Text>
+                <Card.Title>Coming Soon!</Card.Title>
             </Card>
 
 
@@ -584,8 +590,8 @@ Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Pho Fusion A
         <Carousel interval={2000} pause={false}>
             <Carousel.Item>
                 <img
-                    src={allegro}
-                    alt="Allegor Coffe Roasters"
+                    src={berkelySupply}
+                    alt="Berkeley Supply"
                     style={{marginLeft: "5%", height: "30%", width: "30%"}}
                 />
                 <img
