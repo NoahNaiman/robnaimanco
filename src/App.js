@@ -3,11 +3,13 @@ import React from 'react';
 import barchartIcon from './img/bar-chart.svg';
 import berkelySupply from './img/BerkelySupply.png'
 import birdcall from './img/bcall.jpg';
+import blackbelly from './img/blackbelly.png';
 import nativeRoots from './img/nativeRoots.jpg';
 import brotherBBQ from './img/BrothersBBQ.png';
 import buildingIcon from './img/building.svg';
 import burgerKing from './img/Burgerking.png';
 import cedarAndHolly from './img/cedarandholly.jpg';
+import colfaxAndCook from './img/colfaxandcook.jpg';
 import curtisParkDeli from './img/CurtisParkDeli.png';
 import huckleberryRoasters from './img/HuckleberryRoasters.png';
 import dominos from './img/Dominos.png';
@@ -27,7 +29,6 @@ import fruition from './img/Fruition.png';
 import handshakeIcon from './img/handshake.svg';
 import highPoint from './img/HighPoint.png';
 import hopAlley from './img/HopAlley.png';
-import ilPorcelino from './img/ilPorcellino.png';
 import lamars from './img/lamars.jpg';
 import leBakery from './img/Lebakery.png';
 import littleIndia from './img/littleindia.jpg';
@@ -39,6 +40,7 @@ import nikkiAndRob from './img/nikkiAndRob.jpg';
 import nikkiImage from './img/Nikki-Headshot.jpg';
 import nineNinetyWest from './img/990west6th.jpg';
 import nineTenSixteen from './img/91016th.jpg';
+import noahImage from './img/Noah-Headshot.jpg';
 import paloma from './img/Paloma.png';
 import parkburger from './img/parkburger.jpg';
 import parkBurgerLogo from './img/ParkBurger.png';
@@ -86,7 +88,7 @@ function App() {
                 <Nav.Link href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link eventKey="link-1" href="#WhoAreWe">Who Are We</Nav.Link>
+                <Nav.Link eventKey="link-1" href="#WhoAreWe">About Us</Nav.Link>
             </Nav.Item>
             <Nav.Item>
                 <Nav.Link eventKey="link-2" href="#OurProperties">Our Properties</Nav.Link>
@@ -100,7 +102,7 @@ function App() {
         </header>
         <Jumbotron fluid id="WhoAreWe">
             <Container>
-                <h1 id="Whom-Title">Who Are We</h1>
+                <h1 id="Whom-Title">About Us</h1>
                     <p></p>
                     <p>
                         The Robert L. Naiman Company, LLC, is a privately owned real estate firm based in Denver, Colorado focused on acquiring, developing, and managing commercial in-fill property.
@@ -109,13 +111,13 @@ function App() {
                         Our projects provide high impact locations that drive revenue for our tenants and contribute to the surrounding communities.
                     </p>
                     <p>
-                        Our spaces are located across Denver’s most desirable neighborhoods. Each occupies a corner location, at a key intersection for maximum visibility and access. We offer new and growing businesses formats including: freestanding, in-line, drive-thru restaurant/tavern, automotive, office, and mixed-use.
+                        Our spaces are located across Denver’s most desirable neighborhoods. Each occupies a corner location, at a key intersection for maximum visibility and access. We offer new and growing businesses various formats including: freestanding, in-line, drive-thru, restaurant/tavern, automotive, office, and mixed-use.
                     </p>
                     <p>
                         The Denver Metropolitan Commercial Association of Realtors (DMCAR) and The Denver Business Journal have twice named The Robert L. Naiman Company, LLC, Retail Landlord of The Year.
                     </p>
                     <p>
-                        For leasing inquiries or to present new acquisition opportunities, please call or email Nikki Naiman at nikki@robnaimanco.com.
+                        For leasing inquiries or to present new acquisition opportunities, please email Noah Naiman (noah@robnaimanco.com), Nikki Naiman (nikki@robnaimanco.com), or Rob Naiman (rob@robnaimanco).
                     </p>
             </Container>
         </Jumbotron>
@@ -127,18 +129,18 @@ function App() {
                 <Card.Body>
                     <Card.Title>Aquisitions</Card.Title>
                     <hr></hr>
-                    <Card.Text>
-                        The Robert L. Naiman Company, LLC invests in retail and office properties throughout the Denver Metropolitan area and other strategic markets.
+                    <Card.Text style={{'textAlign':'justify'}}>
+                        The Robert L. Naiman Company, LLC invests in retail properties throughout the Denver Metropolitan area and other strategic markets.
                     </Card.Text>
                 </Card.Body>
             </Card>
             <Card>
                 <Card.Img variant="top" src={buildingIcon} className="About-Icon"/>
                 <Card.Body>
-                    <Card.Title>Retail & Office Leasing</Card.Title>
+                    <Card.Title>Retail Leasing</Card.Title>
                     <hr></hr>
-                    <Card.Text>
-                        The Robert L. Naiman Company, LLC has over 40 years of experience and a vast understanding of retail and office leasing. We work directly with new and existing business owners to skillfully navigate project management and guarantee a successful tenant-landlord relationship.
+                    <Card.Text style={{'textAlign':'justify'}}>
+                        The Robert L. Naiman Company, LLC has over 40 years of experience and a vast understanding of retail leasing. We work directly with new and existing business owners to skillfully navigate project management and guarantee a successful tenant-landlord relationship.
                     </Card.Text>
                 </Card.Body>
             </Card>
@@ -147,42 +149,16 @@ function App() {
                 <Card.Body>
                     <Card.Title>Grow Your Business</Card.Title>
                     <hr></hr>
-                    <Card.Text>
+                    <Card.Text style={{'textAlign':'justify'}}>
                         We are proud to have leased the first location to businesses who went on to great success, growth, and expansion. These companies include Qdoba Mexican Eats, Fruition Restaurant, Brother's BBQ, and High Point Creamery among others. We know how to spot potential successes and welcome the opportunity to work with both startup retail businesses and national chains alike.
                     </Card.Text>
                 </Card.Body>
             </Card>
         </CardDeck>
-
         <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-
-		<Image src={parkburger} className="Parkburger-Jumbo" fluid/>		
-         <Figure className="Tenant-Icon">		
-             <Figure.Image		
-                 width={171}		
-                 height={180}		
-                 alt="171x180"		
-                 src={personIcon}		
-             />		
-             <Figure.Caption style={{color:'white'}}>		
-                 <strong>120+</strong> <br></br> Tenants		
-             </Figure.Caption>		
-         </Figure>		
-         <Figure className="Awards-Icon" style={{'marginTop':'-105% !important'}}>		
-             <Figure.Image		
-                 width={171}		
-                 height={180}		
-                 alt="171x180"		
-                 src={trophyIcon}		
-             />		
-             <Figure.Caption style={{color:'white'}}>		
-                 <strong>6</strong> <br></br> Awards		
-             </Figure.Caption>		
-         </Figure>
-
+		<Image src={parkburger} className="Parkburger-Jumbo" fluid />
     	<br></br><br></br><br></br><br></br><br></br><br></br>
         <br></br><br></br><br></br><br></br><br></br><br></br>
-
         <Figure className="Rob-Image">
             <Figure.Image
                 width={400}
@@ -217,6 +193,26 @@ function App() {
                 nikki@robnaimanco.com
             </Figure.Caption>
         </Figure>
+        <Figure className="Noah-Image">
+            <Figure.Image
+                width={400}
+                height={437}
+                alt="400x437"
+                src={noahImage}
+            />
+            <Figure.Caption style={{color:'#0384fc'}}>
+              Noah J. Naiman
+            </Figure.Caption>
+            <Figure.Caption style={{color:'grey', 'fontSize': 'calc(3px + 2vmin)'}}>
+                Partner & Aquisitions Director
+            </Figure.Caption>
+            <Figure.Caption style={{color:'black', 'fontSize': 'calc(3px + 2vmin)'}}>
+                noah@robnaimanco.com
+            </Figure.Caption>
+        </Figure>
+
+
+
         <br id="OurProperties"></br><br></br>
         <hr></hr>
         <br></br>
@@ -298,11 +294,11 @@ Prosperous Cherry Creek/Country Club neighborhood location. Home to Curtis Park 
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={thirtyEightSheridan} alt="3800 Sheridan Blvd. Denver, CO."/>
+                <Card.Img className="Property-Image" src={thirtyFiveLarimer} alt="3500 Larimer St. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>3800 Sheridan Blvd. Denver, CO.</Card.Title>
+                    <Card.Title>3500 Larimer St. Denver, CO.</Card.Title>
                     <Card.Text>
-Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Midas. 
+Electrifying RINO/Curtis Park neighborhood location. Home to Hop Alley Restaurant and Paloma Dental.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -310,11 +306,11 @@ Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Midas.
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={fortyEightThirtyNineEColfax} alt="4839 East Colfax Ave. Denver, CO."/>
+                <Card.Img className="Property-Image" src={fortyTwoTFiftyEColfax} alt="4250 West Colfax Ave. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>4839 East Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Title>4250 West Colfax Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Eclectic City Park/South Park Hill/Hale/Montclair neighborhood. Home to Benzina Restaurant.
+Growing Sloan’s Lake/West Colfax neighborhood. Home to Big Daddy’s Pizza.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -322,11 +318,11 @@ Eclectic City Park/South Park Hill/Hale/Montclair neighborhood. Home to Benzina 
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={seventyFiveHundredPecos} alt="7500 Pecos Street. Denver, CO."/>
+                <Card.Img className="Property-Image" src={sixtyThreeHundredEast} alt="6300 East 14th Ave. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>7500 Pecos Street. Denver, CO.</Card.Title>
+                    <Card.Title>6300 East 14th Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Western Hills/Twin Lakes neighborhood location, with immediate Denver/Boulder Turnpike access. Home to Big O Tires.
+South Park Hill/Hale/Montclair neighborhood location. Home to Conoco Gas and Service Center.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -334,11 +330,11 @@ Western Hills/Twin Lakes neighborhood location, with immediate Denver/Boulder Tu
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={fifteenThreeTwentyIliff} alt="15320 E Iliff Ave. Aurora CO."/>
+                <Card.Img className="Property-Image" src={eightyThirtyOneEastColfax} alt="8031 East Colfax Ave. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>15320 E Iliff Ave. Aurora CO.</Card.Title>
+                    <Card.Title>8031 East Colfax Ave. Denver, CO.</Card.Title>
                     <Card.Text>
-Convenient Meadow Hills/Southeast Crossing neighborhood location. Home to Big O Tires.
+Growing Stapleton/South Park Hill/Lowry neighborhood location. Home to Domino’s Pizza.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -406,11 +402,11 @@ Flourishing University of Colorado/Central Boulder neighborhood location. Home t
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={thirtyFourLarimer} alt="3463 Larimer St. Denver, CO."/>
+                <Card.Img className="Property-Image" src={colfaxAndCook} alt="3401 E. Colfax Ave, Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>3463 Larimer St. Denver, CO.</Card.Title>
+                    <Card.Title>3401 E. Colfax Ave, Denver, CO.</Card.Title>
                     <Card.Text>
-Exciting RINO/Curtis Park neighborhood location. Home to the Embassy Tavern.
+Centrally located home to Middleman Bar & Q House restaurant
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -418,35 +414,11 @@ Exciting RINO/Curtis Park neighborhood location. Home to the Embassy Tavern.
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={fourThirtyFourTennyson} alt="4034-4040 Tennyson St. Denver, CO."/>
+                <Card.Img className="Property-Image" src={thirtyEightSheridan} alt="3800 Sheridan Blvd. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>4034-4040 Tennyson St. Denver, CO.</Card.Title>
+                    <Card.Title>3800 Sheridan Blvd. Denver, CO.</Card.Title>
                     <Card.Text>
-Vibrant Berkeley/West Highlands/Wheatridge neighborhood location. Home to Huckleberry Roasters, Berkely Supply Company, and Il Porcellino Salumi & Pasta.
-                    </Card.Text>
-                </Card.ImgOverlay>
-                </div>
-            </Card>
-
-            <Card style={{height: "15rem"}}>
-                <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={sixtyThreeHundredEast} alt="6300 East 14th Ave. Denver, CO."/>
-                <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>6300 East 14th Ave. Denver, CO.</Card.Title>
-                    <Card.Text>
-South Park Hill/Hale/Montclair neighborhood location. Home to Conoco Gas and Service Center.
-                    </Card.Text>
-                </Card.ImgOverlay>
-                </div>
-            </Card>
-
-            <Card style={{height: "15rem"}}>
-                <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={eightyThirtyOneEastColfax} alt="8031 East Colfax Ave. Denver, CO."/>
-                <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>8031 East Colfax Ave. Denver, CO.</Card.Title>
-                    <Card.Text>
-Growing Stapleton/South Park Hill/Lowry neighborhood location. Home to Domino’s Pizza.
+Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Midas. 
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -464,7 +436,31 @@ Burgeoning Berkeley/West Highlands/Wheatridge neighborhood. Home to Pho Fusion A
                 </div>
             </Card>
 
-			<Card style={{height: "15rem"}}>
+            <Card style={{height: "15rem"}}>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={sixtyFourNinNineLeets} alt="6499 Leetsdale Drive, Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
+                    <Card.Title>6499 Leetsdale Drive. Denver, CO.</Card.Title>
+                    <Card.Text >
+Busy Hilltop/Crestmoor/Winston Downs/Virginia Vale neighborhood location. Home to Denver’s first Brother’s BBQ restaurant.
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+            <Card style={{height: "15rem"}}>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={elevenSixNinetySevenColfax} alt="11697 East Colfax Ave. Denver, CO."/>
+                <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
+                    <Card.Title>11697 East Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Text>
+Thriving Fitzsimons/Hoffman Heights neighborhood. Home to Top Pho.
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
+            </Card>
+
+            <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
                     <Card.Title>330 E 6th Ave. Denver, CO.</Card.Title>
@@ -487,6 +483,7 @@ Thriving Capitol Hill/Alamo Placita/Country Club neighborhood location. Home to 
                 <Card.Img className="Property-Image" src={fiveSixtyEightWash} alt="568 N Washington St. Denver, CO."/>
                 </div>
             </Card>
+
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
@@ -526,11 +523,11 @@ Thriving Kennedy Golf Course/Dam East/West neighborhood location. Home to Burger
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={thirtyFiveLarimer} alt="3500 Larimer St. Denver, CO."/>
+                <Card.Img className="Property-Image" src={thirtyFourLarimer} alt="3463 Larimer St. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>3500 Larimer St. Denver, CO.</Card.Title>
+                    <Card.Title>3463 Larimer St. Denver, CO.</Card.Title>
                     <Card.Text>
-Electrifying RINO/Curtis Park neighborhood location. Home to Hop Alley Restaurant and Paloma Dental.
+Exciting RINO/Curtis Park neighborhood location. Home to the Embassy Tavern.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -538,11 +535,11 @@ Electrifying RINO/Curtis Park neighborhood location. Home to Hop Alley Restauran
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={fortyTwoTFiftyEColfax} alt="4250 West Colfax Ave. Denver, CO."/>
+                <Card.Img className="Property-Image" src={fourThirtyFourTennyson} alt="4034-4040 Tennyson St. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>4250 West Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Title>4034-4040 Tennyson St. Denver, CO.</Card.Title>
                     <Card.Text>
-Growing Sloan’s Lake/West Colfax neighborhood. Home to Big Daddy’s Pizza.
+Vibrant Berkeley/West Highlands/Wheatridge neighborhood location. Home to Huckleberry Roasters, Berkely Supply Company, and Il Porcellino Salumi & Pasta.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -550,11 +547,11 @@ Growing Sloan’s Lake/West Colfax neighborhood. Home to Big Daddy’s Pizza.
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={sixtyFourNinNineLeets} alt="6499 Leetsdale Drive, Denver, CO."/>
+                <Card.Img className="Property-Image" src={fortyEightThirtyNineEColfax} alt="4839 East Colfax Ave. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>6499 Leetsdale Drive. Denver, CO.</Card.Title>
-                    <Card.Text >
-Busy Hilltop/Crestmoor/Winston Downs/Virginia Vale neighborhood location. Home to Denver’s first Brother’s BBQ restaurant.
+                    <Card.Title>4839 East Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Text>
+Eclectic City Park/South Park Hill/Hale/Montclair neighborhood. Home to Benzina Restaurant.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
@@ -562,18 +559,26 @@ Busy Hilltop/Crestmoor/Winston Downs/Virginia Vale neighborhood location. Home t
 
             <Card style={{height: "15rem"}}>
                 <div className="Image-Overlay">
-                <Card.Img className="Property-Image" src={elevenSixNinetySevenColfax} alt="11697 East Colfax Ave. Denver, CO."/>
+                <Card.Img className="Property-Image" src={seventyFiveHundredPecos} alt="7500 Pecos Street. Denver, CO."/>
                 <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
-                    <Card.Title>11697 East Colfax Ave. Denver, CO.</Card.Title>
+                    <Card.Title>7500 Pecos Street. Denver, CO.</Card.Title>
                     <Card.Text>
-Thriving Fitzsimons/Hoffman Heights neighborhood. Home to Top Pho.
+Western Hills/Twin Lakes neighborhood location, with immediate Denver/Boulder Turnpike access. Home to Big O Tires.
                     </Card.Text>
                 </Card.ImgOverlay>
                 </div>
             </Card>
 
-            <Card style={{background: "grey", height: "15rem", textAlign: "center"}}>
-                <Card.Title>Coming Soon!</Card.Title>
+            <Card style={{height: "15rem"}}>
+                <div className="Image-Overlay">
+                <Card.Img className="Property-Image" src={fifteenThreeTwentyIliff} alt="15320 E Iliff Ave. Aurora CO."/>
+                <Card.ImgOverlay className="Location-Description" style={{marginTop: "21%"}}>
+                    <Card.Title>15320 E Iliff Ave. Aurora CO.</Card.Title>
+                    <Card.Text>
+Convenient Meadow Hills/Southeast Crossing neighborhood location. Home to Big O Tires.
+                    </Card.Text>
+                </Card.ImgOverlay>
+                </div>
             </Card>
 
 
@@ -646,8 +651,8 @@ Thriving Fitzsimons/Hoffman Heights neighborhood. Home to Top Pho.
                     style={{marginLeft: "5%", height: "30%", width: "30%"}}
                 />
                 <img
-                    src={ilPorcelino}
-                    alt="Il Porcellino"
+                    src={blackbelly}
+                    alt="Blackbelly Market"
                     style={{height: "30%", width: "30%"}}
                 />
                 <img
@@ -696,10 +701,7 @@ Thriving Fitzsimons/Hoffman Heights neighborhood. Home to Top Pho.
                 <h1 style={{'textAlign':'center'}}>Get In Touch</h1>
                 <br></br><br></br>
 
-                <CardColumns style={{'marginLeft': '30%'}}> 
-                    <Card style={{'background': 'none', 'border': '0px'}}> 
-                        <Card.Img className="Team-Image" src={nikkiAndRob} alt="Robert & Nikki Naiman" style={{'width': '252px', 'height': '335px'}}/>
-                    </Card>
+                <CardColumns style={{'marginLeft': '38%'}}> 
 
                     <Card style={{'background': 'none', 'border': '0px', 'marginLeft': '15%'}}> 
                         <Card.Img className="Contact-Icon" src={phoneIcon} alt="Phone-Icon" style={{'width': '42px', 'height': '45px'}}/>
@@ -709,7 +711,7 @@ Thriving Fitzsimons/Hoffman Heights neighborhood. Home to Top Pho.
 
                         <Card.Img className="Contact-Icon" src={envelopeIcon} alt="Envelope-Icon" style={{'width': '42px', 'height': '45px'}}/>
                         <Figure.Caption style={{color:'black'}}>
-                            <p> <a href="mailto:nikki@robnaimanco.com"> nikki@robnaimanco.com </a></p>
+                            <p> <a href="mailto:noah@robnaimanco.com"> noah@robnaimanco.com </a></p>
                         </Figure.Caption>
 
                         <Card.Img className="Contact-Icon" src={mapMarker} alt="Map-Marker-Icon" style={{'width': '42px', 'height': '45px'}}/>

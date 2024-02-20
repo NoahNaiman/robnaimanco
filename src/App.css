@@ -81,14 +81,24 @@ html {
 
 .Rob-Image {
     position: relative;
-    margin-left: 20%;
+    margin-top: 8%;
+    margin-left: 3%;
     text-align: center;
     font-size: calc(20px + 2vmin);
 }
 
 .Nikki-Image {
     position: relative;
-    margin-left: 15%;
+    margin-top: 8%;
+    margin-left: 6%;
+    text-align: center;
+    font-size: calc(20px + 2vmin);
+}
+
+.Noah-Image {
+    position: relative;
+    margin-top: 8%;
+    margin-left: 6%;
     text-align: center;
     font-size: calc(20px + 2vmin);
 }
