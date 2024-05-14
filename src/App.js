@@ -193,11 +193,12 @@ function App() {
                 nikki@robnaimanco.com
             </Figure.Caption>
         </Figure>
+        <br></br>
         <Figure className="Noah-Image">
             <Figure.Image
                 width={400}
-                height={437}
-                alt="400x437"
+                height={100}
+                alt="400x237"
                 src={noahImage}
             />
             <Figure.Caption style={{color:'#0384fc'}}>
